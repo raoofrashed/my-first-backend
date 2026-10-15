@@ -1,0 +1,12 @@
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "subly",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-15",
+  "assets": {
+    "directory": "./frontend/dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+}
