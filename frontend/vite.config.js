@@ -7,9 +7,10 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://my-first-backend.khoshigaki35.workers.dev',
         changeOrigin: true,
       },
     },
   },
 })
+
